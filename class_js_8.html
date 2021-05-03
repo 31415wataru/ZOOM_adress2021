@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>3-8授業</title>
+  <script type="text/javascript">
+    function confirmFunction_japanese() {
+      var message = "現代文" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/8278776133?pwd=001311";
+      } else {
+     
+      }
+      }
+      function confirmFunction_math3() {
+      var message = "数学Ⅲα" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/8278776133?pwd=001311";
+      } else {
+      
+      }
+      }
+      function confirmFunction_math3_b() {
+      var message = "数学Ⅲβ" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/8184955707?pwd=123123";
+      } else {
+      
+      }
+      }
+      function confirmFunction_english() {
+      var message = "コミュ英" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/3933623088?pwd=198901";
+      } else {
+      
+      }
+      }
+      function confirmFunction_chemistry() {
+      var message = "化学" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/5588494398?pwd=4398";
+      } else {
+     
+      }
+      }
+      function confirmFunction_physics() {
+      var message = "物理" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/6167919744?pwd=118534";
+      } else {
+     
+      }
+      }
+      function confirmFunction_biology() {
+      var message = "生物" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/3392791421?pwd=1421";
+      } else {
+     
+      }
+      }
+      function confirmFunction_se() {
+      var message = "se" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/6452009380?pwd=650260";
+      } else {
+      
+      }
+      }
+      function confirmFunction_PE() {
+      var message = "体育" + "武田先生" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/3860134633?pwd=0225";
+      } else {
+      
+      }
+      }
+      function confirmFunction_sap() {
+      var message = "SAP" + "脇田先生" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/8502002297?pwd=583087";
+      } else {
+    
+      }
+      }
+      function confirmFunction_hr() {
+      var message = "LHR" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/6452009380?pwd=650260";
+      } else {
+      
+      }
+      }
+  </script>
+</head>
+<body>
+    <center>
+    <h1>高校3年8組</h1>
+    </center>
+    <script>
+      var today = new Date();
+      var minute = today.getMinutes();
+      var hour = today.getHours();
+      var youbi = today.getDay();
+    if (hour == 8) {
+      if (minute <= 40) {
+        document.write(ただ今の時間は授業がありません);
+      }
+      if (41 <= minute && minute <= 55) {
+        if (youbi == 0) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        } else if (youbi == 1) {
+          document.write();
+        } else if (youbi == 2) {
+          document.write();
+        } else if (youbi == 3) {
+          document.write();
+        } else if (youbi == 4) {
+          document.write("<h2 onclick='confirmFunction_math3_b()'>数学Ⅲβ</h2>");
+        } else if (youbi == 5) {
+          document.write("<h2 onclick='confirmFunction_math3()'>数学Ⅲα</h2>");
+        } else if (youbi == 6) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        }
+      }
+    }
+    if (hour == 9) {
+      if (minute <= 35) {
+        document.write(ただ今の時間は授業がありませんor授業中です);
+      }
+      if (36 <= minute && minute <= 50) {
+        if (youbi == 0) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        } else if (youbi == 1) {
+          document.write();
+        } else if (youbi == 2) {
+          document.write();
+        } else if (youbi == 3) {
+          document.write();
+        } else if (youbi == 4) {
+          document.write("<h2 onclick='confirmFunction_math3_b()'>数学Ⅲβ</h2>");
+        } else if (youbi == 5) {
+          document.write("<h2 onclick='confirmFunction_english()'>コミュ英</h2>");
+        } else if (youbi == 6) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        }
+      }
+    }
+    if (hour == 10) {
+      if (minute <= 30) {
+        document.write(ただ今の時間は授業がありませんor授業中です);
+      }
+      if (31 <= minute && minute <= 45) {
+        if (youbi == 0) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        } else if (youbi == 1) {
+          document.write();
+        } else if (youbi == 2) {
+          document.write();
+        } else if (youbi == 3) {
+          document.write();
+        } else if (youbi == 4) {
+          document.write("<h2 onclick='confirmFunction_physics()'>物理</h2>");
+        } else if (youbi == 5) {
+          document.write("<h2 onclick='confirmFunction_sap()'>SAP</h2>");
+        } else if (youbi == 6) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        }
+      }
+    }
+    if (hour == 11) {
+      if (minute <= 25) {
+        document.write(ただ今の時間は授業がありませんor授業中です);
+      }
+      if (26 <= minute && minute <= 4) {
+        if (youbi == 0) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        } else if (youbi == 1) {
+          document.write();
+        } else if (youbi == 2) {
+          document.write();
+        } else if (youbi == 3) {
+          document.write();
+        } else if (youbi == 4) {
+          document.write("<h2 onclick='confirmFunction_physics()'>物理</h2>");
+        } else if (youbi == 5) {
+          document.write("<h2 onclick='confirmFunction_sap()'>SAP</h2>");
+        } else if (youbi == 6) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        }
+      }
+    }
+    if (hour == 12) {
+      if (45 <= minute && minute <= 59) {
+        if (youbi == 0) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        } else if (youbi == 1) {
+          document.write();
+        } else if (youbi == 2) {
+          document.write();
+        } else if (youbi == 3) {
+          document.write();
+        } else if (youbi == 4) {
+          document.write("<h2 onclick='confirmFunction_sap()'>SAP</h2>");
+        } else if (youbi == 5) {
+          document.write("<h2 onclick='confirmFunction_PE()'>体育</h2>");
+        } else if (youbi == 6) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        }
+      } else {
+        document.write("<p><center>ただ今の時間は授業がありません</center></p>".fontsize(7).fontcolor("#00CCFF"));
+      }
+
+    }
+    if (hour == 13) {
+      if (00 <= minute && minute <= 10) {
+        if (youbi == 0) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+        } else if (youbi == 1) {
+          document.write();
+        } else if (youbi == 2) {
+          document.write();
+        } else if (youbi == 3) {
+          document.write();
+        } else if (youbi == 4) {
+          document.write("<h2 onclick='confirmFunction_sap()'>SAP</h2>");
+        } else if (youbi == 5) {
+          document.write("<h2 onclick='confirmFunction_PE()'>体育</h2>");
+        } else if (youbi == 6) {
+          document.write("<p><center>ただ今の時間は授業がありません</center></p>".fontsize(7).fontcolor("#00CCFF"));
+        }
+      } else {
+        if (50 <= minute && minute <= 59) {
+          if (youbi == 0) {
+            document.write("<h2><center>今日は授業がありません</center></h2>");
+          } else if (youbi == 1) {
+            document.write();
+          } else if (youbi == 2) {
+            document.write();
+          } else if (youbi == 3) {
+            document.write();
+          } else if (youbi == 4) {
+            document.write("<h2 onclick='confirmFunction_sap()'>SAP</h2>");
+          } else if (youbi == 5) {
+            document.write("<h2 onclick='confirmFunction_se()'>SE</h2>");
+          } else if (youbi == 6) {
+            document.write("<h2><center>今日は授業がありません</center></h2>");
+          }
+        } else {
+          document.write("<p><center>ただ今の時間は授業がありません</center></p>".fontsize(7).fontcolor("#00CCFF"));
+        }
+      }
+    }
+    if (hour == 14) {
+      if (0 <= minute && minute <= 5) {
+        if (youbi == 0) {
+            document.write("<h2><center>今日は授業がありません</center></h2>");
+          } else if (youbi == 1) {
+            document.write();
+          } else if (youbi == 2) {
+            document.write();
+          } else if (youbi == 3) {
+            document.write();
+          } else if (youbi == 4) {
+            document.write("<h2 onclick='confirmFunction_sap()'>SAP</h2>");
+          } else if (youbi == 5) {
+            document.write("<h2 onclick='confirmFunction_se()'>SE</h2>");
+          } else if (youbi == 6) {
+            document.write("<h2><center>今日は授業がありません</center></h2>");
+          }
+    }else if (45 <= minute && minute <= 59) {
+        if (youbi == 0) {
+          document.write();
+        } else if (youbi == 1) {
+          document.write();
+        } else if (youbi == 2) {
+          document.write();
+        } else if (youbi == 3) {
+          document.write();
+        } else if (youbi == 4) {
+          document.write();
+        } else if (youbi == 5) {
+          document.write("<h2><center>ただ今の時間は授業がありません</center></h2>");
+        } else if (youbi == 6) {
+          document.write("<h2><center>今日は授業がありません</center></h2>");
+       } else {
+            document.write("<h2><center>ただ今の時間は授業がありません</center></h2>");
+          }
+      }
+    }
+    if (15 <= hour) {
+      document.write("<h2><center>ただ今の時間は授業がありません</center></h2>");
+    }
+    if (hour <= 7) {
+      document.write("<h2><center>ただ今の時間は授業がありません</center></h2>");
+    }
+    
+    //document.write("<h2 onclick='confirmFunction_math3_b()'>数学Ⅲβ</h2>");
+    </script>
+    <p class="title_detail">※授業開始の5分前から10分後までにタップすると自動入室できます。</p>
+    <!--
+    <script>
+     var today = new Date();
+     var youbi = today.getDay();
+     let youbi_j
+     if(youbi == 0){
+        youbi_j = "日曜日"
+     } 
+     if(youbi == 1){
+        youbi_j = "月曜日"
+     } 
+     if(youbi == 2){
+        youbi_j = "火曜日"
+     } 
+     if(youbi == 3){
+        youbi_j = "水曜日"
+     }
+     if(youbi == 4){
+        youbi_j = "木曜日"
+     } 
+     if(youbi == 5){
+        youbi_j = "金曜日"
+     }  
+     if(youbi == 6){
+        youbi_j = "土曜日"
+     }  
+    document.write("<h1>" + youbi_j + "</h1>");
+    </script>
+  -->
+
+    <div class="contens">  
+    <p onclick="confirmFunction_japanese()">現代文</p></a> <!-早瀬先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_math3()">数学Ⅲα</p></a> <!-中山先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_math3_b()">数学Ⅲβ</p></a> <!-館野先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_english()">コミュ英</p></a> <!-二宮先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_chemistry()">化学</p></a> <!-宮嶋先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_physics()">物理</p></a> <!-水野先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_biology()">生物</p></a> <!-尾崎先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_se()">SE</p></a> <!-GREEN先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_PE()">体育(武田先生)</p></a> <!-武田先生->
+    </div> 
+    <div class="contens">  
+    <p onclick="confirmFunction_sap()">SAP(脇田先生)</p></a> <!-脇田先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_hr()">LHR</p></a> <!-GREEN先生->
+    </div>
+    <!--
+    <div class="contens">  
+    <a href="https://zoom.us/j/8278776133?pwd=001311" ><p>現代文</p></a> <!-早瀬先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/9526879266?pwd=27390" ><p>数学Ⅲα</p></a> <!-中山先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/8184955707?pwd=123123" ><p>数学Ⅲβ</p></a> <!-館野先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/3933623088?pwd=198901" ><p>コミュ英</p></a> <!-二宮先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/5588494398?pwd=4398" ><p>化学</p></a> <!-宮島先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/6167919744?pwd=118534" ><p>物理</p></a> <!-水野先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/3392791421?pwd=1421" ><p>生物</p></a> <!-尾崎先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/6452009380?pwd=650260" ><p>SE</p></a> <!-GREEN先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/3860134633?pwd=0225" ><p>体育(武田)</p></a> <!-武田先生->
+    </div>
+    <div class="contens">
+    <a href="https://zoom.us/j/8502002297?pwd=583087" ><p>SAP</p></a> <!-脇田先生->
+    </div>
+  -->
+<div class="return">
+    <ul>
+    <li><a href="index.html"><p>return the page</p></a></li>
+    </ul>
+    </div>
+<center>
+<footer>
+    &copy; Okunishi 2021
+  </footer>
+</center>
+</body>
