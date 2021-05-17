@@ -110,6 +110,22 @@
     
       }
       }
+      function confirmFunction_seikei() {
+      var message = "政治経済" + "峯松先生" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/8263674535?pwd=614828";
+      } else {
+      
+      }
+      }
+      function confirmFunction_japanesehistory() {
+      var message = "日本史" + "齋藤先生" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/5191447795?pwd=869288";
+      } else {
+      
+      }
+      }
       function confirmFunction_aw_g() {
       var message = "AW " + "GREEN先生" + "の授業に参加しますか？";
       if(confirm(message)) {
@@ -205,7 +221,7 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_japanese()'>現代文</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -232,7 +248,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_math_AMGL()'>文系数学</h2>");
+          document.write("<h2 onclick='confirmFunction_se()'>SE</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -259,7 +276,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_seikei()'>政治経済</h2>");
+          document.write("<h2 onclick='confirmFunction_math3_a()'>数学Ⅲα</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -286,7 +304,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_math3_a()'>数学Ⅲα</h2>");
+          document.write("<h2 onclick='confirmFunction_japanesehistory()'>日本史</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -310,7 +329,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_aw_c()'>AW(Coslian先生)</h2>");
+          document.write("<h2 onclick='confirmFunction_aw_G()'>AW(GREEN先生)</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -334,7 +354,9 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_aw_c()'>AW(Coslian先生)</h2>");
+          document.write("<h2 onclick='confirmFunction_aw_G()'>AW(GREEN先生)</h2>");
+          document.write("<h2 onclick='confirmFunction_biology()'>生物</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -353,7 +375,8 @@
           } else if (youbi == 1) {
             document.write();
           } else if (youbi == 2) {
-            document.write();
+            document.write("<h2 onclick='confirmFunction_english_y()'>コミュ英(由谷先生)</h2>");
+            document.write("<h2 onclick='confirmFunction_english_h()'>コミュ英(林先生)</h2>");
           } else if (youbi == 3) {
             document.write();
           } else if (youbi == 4) {
@@ -378,7 +401,8 @@
           } else if (youbi == 1) {
             document.write();
           } else if (youbi == 2) {
-            document.write();
+            document.write("<h2 onclick='confirmFunction_english_y()'>コミュ英(由谷先生)</h2>");
+            document.write("<h2 onclick='confirmFunction_english_h()'>コミュ英(林先生)</h2>");
           } else if (youbi == 3) {
             document.write();
           } else if (youbi == 4) {
@@ -397,7 +421,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_english_y()'>コミュ英(由谷先生)</h2>");
+          document.write("<h2 onclick='confirmFunction_english_h()'>コミュ英(林先生)</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -500,6 +525,12 @@
     </div>
     <div class="contens">  
     <p onclick="confirmFunction_math_AMGL()">文系数学</p></a> <!-壺阪先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_japanesehistory()">日本史</p></a> <!-齋藤先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_seikei()">政治経済</p></a> <!-峯松先生->
     </div>
     <div class="contens">  
     <p onclick="confirmFunction_aw_g()">AW(GREEN先生)</p></a> <!-GREEN先生->
