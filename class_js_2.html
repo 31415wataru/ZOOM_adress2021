@@ -46,6 +46,14 @@
       
       }
       }
+      function confirmFunction_seikei() {
+      var message = "政治経済" + "峯松先生" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/8263674535?pwd=614828";
+      } else {
+      
+      }
+      }
       function confirmFunction_PE() {
       var message = "体育" + "武田先生" + "の授業に参加しますか？";
       if(confirm(message)) {
@@ -100,6 +108,9 @@
     </div>
     <div class="contens">  
     <p onclick="confirmFunction_japanesehistory()">日本史</p></a> <!-辻村先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_seikei()">政治経済</p></a> <!-峯松先生->
     </div>
     <div class="contens">  
     <p onclick="confirmFunction_PE()">体育(武田先生)</p></a> <!-武田先生->
