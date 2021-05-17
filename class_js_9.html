@@ -16,6 +16,14 @@
      
       }
       }
+      function confirmFunction_old_japanese() {
+      var message = "古典" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/4277489034?pwd=408205";
+      } else {
+     
+      }
+      }
       function confirmFunction_math3() {
       var message = "数学Ⅲα" + "の授業に参加しますか？";
       if(confirm(message)) {
@@ -44,6 +52,14 @@
       var message = "コミュ英" + "の授業に参加しますか？";
       if(confirm(message)) {
         location.href = "https://zoom.us/j/5882904059?pwd=638539";
+      } else {
+      
+      }
+      }
+      function confirmFunction_english() {
+      var message = "英語演習" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/7018667338?pwd=123123";
       } else {
       
       }
@@ -112,6 +128,14 @@
     
       }
       }
+      function confirmFunction_socialstudies_nihonnshi() {
+      var message = "日本史" + "齋藤先生" + "の授業に参加しますか？";
+      if(confirm(message)) {
+        location.href = "https://zoom.us/j/5191447795?pwd=869288";
+      } else {
+    
+      }
+      }
       function confirmFunction_shinngaku_i() {
       var message = "進学ゼミ" + "井上先生" + "の授業に参加しますか？";
       if(confirm(message)) {
@@ -158,7 +182,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_socialstudies()'>地歴公民演習</h2>");
+          document.write("<h2 onclick='confirmFunction_chemistry_m()'>化学演習(宮嶋先生)</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -180,7 +205,7 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_english()'>コミュ英</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -202,7 +227,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_math3()'>数Ⅲα</h2>");
+          document.write("<h2 onclick='confirmFunction_math3_a()'>数演α</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -226,7 +252,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_math3()'>数Ⅲα</h2>");
+          document.write("<h2 onclick='confirmFunction_math3_a()'>数演α</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -247,7 +274,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_socialstudies_chiri()'>地理B</h2>");
+          document.write("<h2 onclick='confirmFunction_socialstudies_nihonnshi_s()'>日本史B</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -272,7 +300,8 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_socialstudies_chiri()'>地理B</h2>");
+          document.write("<h2 onclick='confirmFunction_socialstudies_nihonnshi_s()'>日本史B</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -292,7 +321,7 @@
           } else if (youbi == 1) {
             document.write();
           } else if (youbi == 2) {
-            document.write();
+            document.write("<h2 onclick='confirmFunction_english_h()'>英語演習</h2>");
           } else if (youbi == 3) {
             document.write();
           } else if (youbi == 4) {
@@ -317,7 +346,7 @@
           } else if (youbi == 1) {
             document.write();
           } else if (youbi == 2) {
-            document.write();
+            document.write("<h2 onclick='confirmFunction_english_h()'>英語演習</h2>");
           } else if (youbi == 3) {
             document.write();
           } else if (youbi == 4) {
@@ -336,7 +365,7 @@
         } else if (youbi == 1) {
           document.write();
         } else if (youbi == 2) {
-          document.write();
+          document.write("<h2 onclick='confirmFunction_english_h()'>英語演習</h2>");
         } else if (youbi == 3) {
           document.write();
         } else if (youbi == 4) {
@@ -368,6 +397,9 @@
     <p onclick="confirmFunction_japanese()">現代文</p></a> <!-山本先生->
     </div>
     <div class="contens">  
+    <p onclick="confirmFunction_old_japanese()">古典</p></a> <!-山本先生->
+    </div>
+    <div class="contens">  
     <p onclick="confirmFunction_math3()">数学Ⅲα</p></a> <!-中川先生->
     </div>
     <div class="contens">  
@@ -378,6 +410,9 @@
       </div>
     <div class="contens">  
     <p onclick="confirmFunction_english()">コミュ英</p></a> <!-田中先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_english_h()">英語演習</p></a> <!-橋詰先生->
     </div>
     <div class="contens">  
     <p onclick="confirmFunction_chemistry_m()">化学演習(宮嶋先生)</p></a> <!-宮嶋先生->
@@ -399,6 +434,9 @@
     </div>
     <div class="contens">  
     <p onclick="confirmFunction_socialstudies_nihonnshi()">日本史B</p></a> <!-八反先生->
+    </div>
+    <div class="contens">  
+    <p onclick="confirmFunction_socialstudies_nihonnshi_s()">日本史B(齋藤先生)</p></a> <!-齋藤先生->
     </div>
     <div class="contens">  
     <p onclick="confirmFunction_PE()">体育(武田先生)</p></a> <!-武田先生->
