@@ -157,10 +157,10 @@
       var hour = today.getHours();
       var youbi = today.getDay();
     if (hour == 8) {
-      if (minute <= 40) {
+      if (minute <= 39) {
         document.write(ただ今の時間は授業がありません);
       }
-      if (41 <= minute && minute <= 55) {
+      if (40 <= minute && minute <= 55) {
         if (youbi == 0) {
           document.write("<h2><center>今日は授業がありません</center></h2>");
         } else if (youbi == 1) {
